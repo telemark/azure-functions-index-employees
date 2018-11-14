@@ -1,6 +1,6 @@
 {
   "name": "azure-functions-index-employees",
-  "description": "Azure function for indexing politicians",
+  "description": "Azure functions for indexing employees",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
