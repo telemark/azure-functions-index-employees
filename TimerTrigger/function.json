@@ -5,13 +5,13 @@
       "name": "myTimer",
       "type": "timerTrigger",
       "direction": "in",
-      "schedule": "0 */5 * * * *"
+      "schedule": "0 0 3 * * *"
     },
     {
       "name": "mySbQueue",
       "type": "serviceBus",
       "direction": "out",
-      "queueName": "testqueue",
+      "queueName": "searchindexqueue",
       "connection": "SERVICEBUS_CONNECTION"
     }
   ]
